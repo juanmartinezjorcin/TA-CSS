@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    background-color: lightblue; 
+    padding: 0;
+}
+.Tarjeta {
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+}
+    .avatar{
+        /*tomo la izquierda de la terjeta no la de el que la ve*/
+        width: 30%;
+        position: absolute;
+        top: -15px;
+        left: 70%;
+        border-radius: 50%;
+    }
+
+    button {
+        background-color: aquamarine;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
